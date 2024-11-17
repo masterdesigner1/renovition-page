@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gestion Immobilière Personnalisée</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Gestion Immobilière Personnalisée</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact" role="button">Contactez-nous</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Investissez en Israël en toute sérénité</h2>
+                    <h3>Votre bien immobilier, notre responsabilité</h3>
+                </hgroup>
+                <p>
+                    Vous êtes investisseur immobilier à Netanya, Herzliya ou ailleurs en Israël ?  
+                    Nous vous proposons un service d’accompagnement personnalisé pour la gestion de vos biens, 
+                    vous permettant de profiter de vos investissements sans stress ni complications.
+                </p>
+                <figure>
+                    <img src="https://source.unsplash.com/800x400/?real-estate,israel" alt="Vue d'une propriété en Israël">
+                    <figcaption><a href="https://unsplash.com/" target="_blank">Photo par Unsplash</a></figcaption>
+                </figure>
+                <h3>Les défis des investisseurs :</h3>
+                <p>
+                    • Gestion des locataires à distance.  
+                    • Propriétés sans entretien régulier.  
+                    • Absence de suivi des rendements financiers.
+                </p>
+                <h3>Notre solution :</h3>
+                <p>
+                    Une gestion intégrale et professionnelle, de la maintenance quotidienne à la relation avec vos locataires, 
+                    le tout avec une transparence totale.
+                </p>
+            </section>
+        </div>
+        <section aria-label="Subscribe example">
+            <div class="container">
+                <article>
+                    <hgroup>
+                        <h2>Demandez un entretien personnalisé</h2>
+                        <h3>Contactez-nous pour un diagnostic gratuit</h3>
+                    </hgroup>
+                    <form class="grid">
+                        <input type="text" id="firstname" name="firstname" placeholder="Votre prénom" aria-label="Prénom" required />
+                        <input type="email" id="email" name="email" placeholder="Votre email" aria-label="Email" required />
+                        <button type="submit" onclick="event.preventDefault()">Envoyer</button>
+                    </form>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="container">
+        <small>
+            <a href="#services">Nos services</a> • 
+            <a href="#contact">Contactez-nous</a>
+        </small>
+    </footer>
+</body>
+</html>
